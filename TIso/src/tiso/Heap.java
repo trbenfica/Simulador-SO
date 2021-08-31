@@ -1,6 +1,5 @@
 package tiso;
 
-import java.util.LinkedList;
 
 public class Heap {
 	

@@ -1,6 +1,7 @@
-import java.util.Random;
+
 
 package tiso;
+import java.util.Random;
 /**
  * 
  * @author WillianS
@@ -19,8 +20,8 @@ public class GeradorDeRequisitos{
     }
 
     public void defineTamanho(){}
-    public Requisição gerarRequisicao(){
-        Requisição req = new Requisição(gerador.nextInt(max) + min);
+    public Requisicao gerarRequisicao(){
+        Requisicao req = new Requisicao(gerador.nextInt(max) + min);
         return req;        
     }
 } 
