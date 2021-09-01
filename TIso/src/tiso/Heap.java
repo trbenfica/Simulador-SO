@@ -73,4 +73,5 @@ public class Heap {
 		return indexs;
 	}
 	
-}
+} //alterado 
+
