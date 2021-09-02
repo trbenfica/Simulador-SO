@@ -8,8 +8,8 @@ import java.util.Random;
  */
 
 public class GeradorDeRequisitos{
-    private int buffer; // tamanho max da fila circular
-    private int itens; // nº de itens não consumidos
+    //private int buffer; // tamanho max da fila circular
+    //private int itens; // nº de itens não consumidos
     private int max; 
     private int min; 
     Random gerador = new Random();

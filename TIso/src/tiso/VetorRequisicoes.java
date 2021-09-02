@@ -8,7 +8,6 @@ import java.util.ArrayList;
  * @author indra
  */
 public class VetorRequisicoes {
-    //TODO! - IMPRIMIR VETOR!
     
     private int tamanho, inicio, fim;
     private ArrayList<Requisicao> fila = new ArrayList<Requisicao>();
@@ -58,6 +57,24 @@ public class VetorRequisicoes {
         return temp;
     }
     
+    public void getVetor(){
+        if(inicio == -1){
+            System.out.println("Vetor de Requisições está vazia");
+            return;
+        }
+        if(fim >= inicio){
+            for(int i = inicio; i<= fim; i++){
+                System.out.println(fila.get(i)+" \n");
+            }
+        }else{
+            for(int i = inicio; i< tamanho; i++){
+                System.out.println(fila.get(i)+" \n"); 
+            }
+            for(int i=0; i<= fim; i++){
+                System.out.println(fila.get(i)+" \n");
+            }
+        }
+    }
     
     
 }

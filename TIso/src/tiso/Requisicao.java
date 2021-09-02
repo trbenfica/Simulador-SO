@@ -1,6 +1,5 @@
 package tiso;
 
-import tiso.Variavel;
 
 /**
  *

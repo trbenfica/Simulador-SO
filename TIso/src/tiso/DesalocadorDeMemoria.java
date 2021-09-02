@@ -6,8 +6,8 @@ package tiso;
  */
 
 public class DesalocadorDeMemoria{
-    private int intens_remov;
-    private int monitor;
+   // private int intens_remov;
+  //  private int monitor;
 
     public void monitor(){}
 

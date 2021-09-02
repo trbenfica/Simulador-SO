@@ -17,7 +17,8 @@ public class Variavel {
     public Variavel(int tm){
         ger = new Random();
         this.tam = tm;
-        this.info = ger.toString(tam);//! esse toString não consegue receber uma variavel int como parametro
+       // this.info = ger.toString(tam);//! esse toString não consegue receber uma variavel int como parametro
+       this.info = ger.toString();
     }
 
     public void setRegBase(int rgB, int rgF){
@@ -43,5 +44,9 @@ public class Variavel {
 
     public int getRegTamanho(){
         return regTamanho;
+    }
+
+    public String getInfo(){
+        return info;
     }
 }
