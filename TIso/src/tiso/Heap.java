@@ -4,7 +4,7 @@ package tiso;
 public class Heap {
 	
 	int heap[];
-	private int tamanhoHeap;
+	private int tamanhoHeap;//asdasd
 	
 	
 	
