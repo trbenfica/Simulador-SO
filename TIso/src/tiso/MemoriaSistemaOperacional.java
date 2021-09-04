@@ -7,4 +7,8 @@ package tiso;
  */
 public class MemoriaSistemaOperacional {
     VetorRequisicoes requisicoes;
+
+    public MemoriaSistemaOperacional(){
+        
+    }
 }
