@@ -72,5 +72,15 @@ public class Heap {
 		
 		return indexs;
 	}
+
+	public int[] getHeap(){
+		return heap;
+	}
+
+	public void showHeap(){
+		for(int i=0; i<tamanhoHeap; i++){
+			System.out.println(heap[i]+"\n");
+		}
+	}
 	
-}// alterado aqui teste
+}
