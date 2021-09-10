@@ -1,4 +1,3 @@
-
 package tiso;
 
 import java.util.ArrayList;
@@ -10,9 +9,9 @@ import java.util.ArrayList;
 public class VetorRequisicoes {
     
     private int tamanho, inicio, fim;
-    private ArrayList<Requisicao> fila = new ArrayList<>();
+    private ArrayList<Requisicao> fila = new ArrayList<Requisicao>();
     
-    VetorRequisicoes(int tamanho){
+    public VetorRequisicoes(int tamanho){
         this.tamanho=tamanho;
         this.inicio=this.fim=-1; 
     }
