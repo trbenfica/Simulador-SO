@@ -6,7 +6,7 @@ public class Heap {
 	int heap[];
 	private int tamanhoHeap;//asdasd
 	
-	
+
 	
 	public Heap(int tamanhoHeap) {
 		this.heap = new int[tamanhoHeap];

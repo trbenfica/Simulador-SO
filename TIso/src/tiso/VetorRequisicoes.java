@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class VetorRequisicoes {
     
     private int tamanho, inicio, fim;
-    private ArrayList<Requisicao> fila = new ArrayList<Requisicao>();
+    private ArrayList<Requisicao> fila = new ArrayList<>();
     
     VetorRequisicoes(int tamanho){
         this.tamanho=tamanho;

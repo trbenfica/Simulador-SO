@@ -1,17 +1,20 @@
 package tiso;
 
 /**
- * 
  * @author WillianS
  */
 
 public class DesalocadorDeMemoria{
-   // private int intens_remov;
-  //  private int monitor;
+    private int vari_desalocadas;
 
-    public void monitor(){}
+    public DesalocadorDeMemoria(){
+        this.vari_desalocadas = 0;
+    }
 
-    public boolean desalocadorReq(int id){
-        return true; // true ou false
+    public boolean desalocadorReq(int id, int base, int lim){
+        boolean desalocou = false;
+
+        if(!desalocou) 
+        return desalocou; // true ou false
     }
 }
