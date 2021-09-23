@@ -1,17 +1,16 @@
+public class DesalocadorDeMemoria{
 
-public class DesalocadorDeMemoria
-{
-	private Heap heap;
-
-	public DesalocadorDeMemoria(Heap heap)
-	{
-		this.heap = heap;
+	public DesalocadorDeMemoria(){
+		
 	}
 
-	public void desalocarVar (VariavelAlocada variavel)
-	{
-		for (int i = 0; i < variavel.getTamanho(); i ++) {
-			heap.removeHeap (variavel.getInicio() + i);
+	//Desalocação de uma variável da heap.
+	public void desalocarVar (Variavel variavel){
+		MainTrhead.gestorHeap.acquire();
+		for (int i = 0; i < variavel.getTam(); i ++) {
+			MainTrhead.userHeap.removeHeap(variavel.getRegBase());
 		}
+		MainTrhead.gestorHeap.release();
+		
 	}
 }
